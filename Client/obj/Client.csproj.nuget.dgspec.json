@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\курсач\\Client\\Client.csproj": {}
+  },
+  "projects": {
+    "F:\\курсач\\Client\\Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\курсач\\Client\\Client.csproj",
+        "projectName": "Client",
+        "projectPath": "F:\\курсач\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\qwerty\\.nuget\\packages\\",
+        "outputPath": "F:\\курсач\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Tulpep.NotificationWindow": {
+              "target": "Package",
+              "version": "[1.1.38, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
